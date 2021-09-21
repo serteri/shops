@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* heading*/
+
+.heading{
+    margin-bottom: 1rem;
+}
+
+/* shopping items */
+
+.shopping-items-div{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.shopping-items{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.shopping-item{
+    list-style-type: none;
+ 
+}
+
+.shopping-item:first-child{
+   width:30px;
+}
+
+.shopping-item:not(:first-child){
+    margin-left: 4rem;
+}
+
+#shopping{
+    margin-left:2rem
+}
+
+.quantity{
+    width:40px;
+}
+
+/*input*/
+#new-input{
+    width:40px ;
+
+}
+#new-input1{
+    width:40px ;
+    margin-left: 3rem;
+}
+#create{
+    margin-left:3rem;
+}
+
+/* total price calculated button*/
+
+.total-price-calculated{
+    margin-left:32rem;
+}
+
+#total-price{
+    margin-left: 20px;
+   font-size: 2rem;
+}
+
+.total-price-show{
+    margin-left: 20px;
+    font-size: 2rem;
+    display: inline-block;
+}
+.span-total{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.total-price{
+    display: inline-block;
+   
+    
+}
+
+.price{
+    display: inline-block;
+}
+
+.first{
+    width: 20px;
+}
+
+.middle{
+    width:160px
+}
+
+#hepsi{
+    margin-left:2rem;
+}
